@@ -25,4 +25,4 @@ This will have two tables, Users and Books, utilizing a one to many relationship
 
 Future developments to My Ex Libris would be an interactive site where users could become friends and view each other's libraries. Users could set certain books in a private list and others for their friends to see which would have the options to loan out to them. It could be a scaled back social media just for seeing each other's reviews on books and sharing with each other new books they just bought. There would also be an option for uploading their own photos of the books they add to their library, such as antique copies that are not listed with an isbn or sbn.
 
-This project is a collaboration between @MollyDahl and Anna Dahl.
+This project is a collaboration between Molly Dahl and Anna Dahl.
