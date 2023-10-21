@@ -1,0 +1,78 @@
+
+Personal Library App/Website
+
+A personal library where you can store your books by publisher, author, collection, location, etc. You can add a photo of the book if you want. If you have loaned out books you can enter that in, with their name and date they borrowed it. You can add reviews about the book with rating.
+
+If it was a multiple-user interaction app, then you could add friends libraries available for loaning out.
+
+I could see it being popular with homeschoolers or book nerds, etc. Like that book review website, but more personal and a little more social media styled. But small. show off book collections, reviews, ratings, etc.
+
+Layout: home page
+
+books:
+    (id)
+    *title
+    *author
+    genre
+    personal rating (5 star rating)
+    location? i.e. library, office, bedroom
+    On loan (to {friend's name})
+    review
+    available/not available to loan out. *if available.
+    button, request book
+    read/unread
+
+bookmark where you left off.
+
+functions:
+    delete book
+    update book
+    add review
+    request loan
+
+
+users
+    id
+    username
+    email
+    password
+    first name
+    last name
+    favorite_quote
+    profile picture
+        https://geekpython.in/render-images-from-flask
+    created at
+    updated at
+
+books
+    id
+    *title
+    *author
+    ISBN
+    genre
+    rating (5 star)
+    review
+    recommend yes/no radio button
+    *read/unread radio button
+        date read
+    on loan? yes/no
+        loaned to:
+        date loaned:
+        date returned:
+    location: text box...[room in house...]
+    add image of book. through api. searching isbn
+    favorite quote
+    make favorite book
+
+
+
+    isbn api book cover
+        https://openlibrary.org/dev/docs/api/covers
+        https://github.com/w3slley/bookcover-api
+
+
+
+
+
+
+if they live in the same city the user can request to borrow the book. Maybe not.
