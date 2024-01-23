@@ -1,0 +1,48 @@
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.register_login_box {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn {
+    text-align:right;
+}

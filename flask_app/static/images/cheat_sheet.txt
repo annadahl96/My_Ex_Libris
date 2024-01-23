@@ -1,0 +1,16 @@
+Creating our Virtual Environment and Installing Flask:
+
+1. Once we are in the project folder in the terminal, we can use pipenv to install Flask.
+    type: pipenv install PyMySQL flask flask-bcrypt
+
+2. To activate our virtual environment we must use the following command.
+    type: pipenv shell
+
+3. To start the application we need to run the server.py file.
+    type: python3 server.py
+
+4. To deactivate the virtual environment we can use exit.
+    type: exit
+
+    q to quit.
+
