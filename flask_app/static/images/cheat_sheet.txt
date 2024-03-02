@@ -14,4 +14,12 @@ Creating our Virtual Environment and Installing Flask:
 
     q to quit.
 
-testing this. 
+
+
+Commiting to github using command line (when you're not pulling from the master first):
+
+1. Open file on terminal and use command "pipenv shell"
+2. " git "
+3. " git commit -m "write message here" "
+4. " git push origin master "
+testttt 
