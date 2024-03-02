@@ -31,7 +31,7 @@ def register_new_user_form():
 
     id = user_model.User.create_new_user(data)
     session['id'] = id
-    return redirect ('/dashboard')
+    return redirect ('/mylibrary')
 
 @app.route('/login')
 def display_login_page():
@@ -44,13 +44,13 @@ def user_login_form():
 
     if not user_in_db:
         flash("Invalid Email/Password", 'login')
-        return redirect('/')
+        return redirect('/login')
     if not bcrypt.check_password_hash(user_in_db.password, request.form['password']):
         flash("Invalid Email/Password", 'login')
         return redirect('/login')
 
     session['id'] = user_in_db.id
-    return redirect('/dashboard')
+    return redirect('/mylibrary')
 
 
 # route to clear session for logging out
@@ -58,3 +58,4 @@ def user_login_form():
 def clear_session():
     session.clear()
     return redirect("/")
+
