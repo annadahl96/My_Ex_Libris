@@ -20,6 +20,7 @@ Commiting to github using command line (when you're not pulling from the master 
 
 1. Open file on terminal and use command "pipenv shell"
 2. " git "
-3. " git commit -m "write message here" "
-4. " git push origin master "
+3. " git add . "
+4. " git commit -m "write message here" "
+5. " git push origin master "
 testttt 
