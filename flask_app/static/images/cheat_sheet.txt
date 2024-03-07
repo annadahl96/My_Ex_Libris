@@ -23,4 +23,3 @@ Commiting to github using command line (when you're not pulling from the master 
 3. " git add . "
 4. " git commit -m "write message here" "
 5. " git push origin master "
-testttt 
